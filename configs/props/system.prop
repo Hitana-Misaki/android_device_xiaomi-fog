@@ -36,6 +36,8 @@ ro.vendor.qti.va_aosp.support=1
 
 # Graphics
 persist.demo.hdmirotationlock=false
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # Iorapd
 ro.iorapd.enable=false
