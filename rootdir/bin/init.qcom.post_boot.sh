@@ -87,8 +87,8 @@ echo 1 > /proc/sys/kernel/sched_walt_rotate_big_tasks
 echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
 echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
-echo 1516800 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq
-echo 691200 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+echo 1516000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq
+echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
 echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/rtg_boost_freq
 
 # configure governor settings for big cluster
